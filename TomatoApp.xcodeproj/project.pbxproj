@@ -14,6 +14,7 @@
 		D792469F2B7363E800B59A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D792469D2B7363E800B59A82 /* LaunchScreen.storyboard */; };
 		D79246AB2B7616FD00B59A82 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D79246AA2B7616FD00B59A82 /* SnapKit */; };
 		D79246AD2B7616FD00B59A82 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D79246AC2B7616FD00B59A82 /* SnapKit-Dynamic */; };
+		D7DD97C22B7E046200ACEB63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD97C12B7E046200ACEB63 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D792469B2B7363E800B59A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D792469E2B7363E800B59A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79246A02B7363E800B59A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DD97C12B7E046200ACEB63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D79246912B7363E700B59A82 /* TomatoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D7DD97C02B7E043900ACEB63 /* Extensions */,
 				D79246A62B73667D00B59A82 /* App */,
 				D79246A72B73668B00B59A82 /* Sources */,
 				D79246A82B73669900B59A82 /* Resources */,
@@ -90,6 +93,14 @@
 				D79246A02B7363E800B59A82 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7DD97C02B7E043900ACEB63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7DD97C12B7E046200ACEB63 /* UIView+Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			files = (
 				D79246972B7363E700B59A82 /* ViewController.swift in Sources */,
 				D79246932B7363E700B59A82 /* AppDelegate.swift in Sources */,
+				D7DD97C22B7E046200ACEB63 /* UIView+Extensions.swift in Sources */,
 				D79246952B7363E700B59A82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
